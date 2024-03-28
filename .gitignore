@@ -1,0 +1,41 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore environment-specific files
+.env
+
+# Ignore any local configuration files
+config/local.js
+
+# Ignore log files
+logs/
+
+# Ignore build artifacts
+dist/
+build/
+coverage/
+
+# Ignore dependency directories
+bower_components/
+jspm_packages/
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any sensitive or private files
+*.key
+*.pem
+*.cer
